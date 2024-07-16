@@ -27,3 +27,10 @@ const student={
     isPass:true,
 };
 console.log(student["age"]);
+const profile={
+    userName:"inshrahmaryammm",
+    isFollow:true,
+    followers:240,
+    following:4,
+};
+console.log(typeof profile["followers"]);
