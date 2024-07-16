@@ -18,3 +18,12 @@ console.log(age);
     let a=5;
     console.log(a);
 }
+let x=null;
+const student={
+    fullName:"ali khan",
+    age:22,
+    cgpa:2.98,
+    address:"high street",
+    isPass:true,
+};
+console.log(student["age"]);
