@@ -71,3 +71,33 @@ let cond2=p===9;
 console.log("cond1&&cond2=",cond1&&cond2); 
 console.log("cond1||cond1=", cond1||cond2);
 console.log(!o>p);
+//conditional statements
+let number=25;  
+if(number>18){
+    console.log("you can vote");
+}
+if(number<18){
+    console.log("you cannot vote");
+}
+let mode="dark";
+let color;
+if(mode==="dark"){
+    color="black";
+}
+if(mode==="light"){
+    color="white";
+}
+console.log(color);
+
+let maanu_age=15;
+if(maanu_age>15){
+    console.log("maanu can attend concert");
+    
+} else if(maanu_age==15){
+    console.log(" let maanu attend concert");
+}
+else{
+    console.log("maanu cannot attend concert");
+}
+
+
