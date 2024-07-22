@@ -119,35 +119,50 @@ for(let i=1;i<=5;i++){
     sum=sum+i;
     console.log("sum=",sum);
 }
-let k=0;
-while(k<=10){
-    console.log("k=",k);
-    k++;
-}
-let r=1;
-do{
-    console.log("hello i am coding in js");
-    r++;
-} while(r<=20);
-let str="maryam";
-for(let l of str){
-    console.log(l);
-}
-let teacher={
-    name:"madiha memon",
-    age:30,
-    designation:"associate professor",
+// let k=0;
+// while(k<=10){
+//     console.log("k=",k);
+//     k++;
+// }
+// let r=1;
+// do{
+//     console.log("hello i am coding in js");
+//     r++;
+// } while(r<=20);
+// let str="maryam";
+// for(let l of str){
+//     console.log(l);
+// }
+// let teacher={
+//     name:"madiha memon",
+//     age:30,
+//     designation:"associate professor",
+// };
+// for(let y in teacher){
+//     console.log(y);
+//     console.log("key=",y,"value",teacher[y]);
+// } //returns keys
+// let gameNum=25;
+// let userNum=prompt("guess the game number");
+// while(userNum!=gameNum){
+//     console.log("oops! u guessed the wrong no. now guess again");
+// }
+//     console.log("congrats! u entered the right number");
+let str2="meow guys";
+console.log(str2.length);
+let specialString=`this is a template literal`;
+console.log(specialString);
+let obj={
+    item:"pen",
+    price:100,
 };
-for(let y in teacher){
-    console.log(y);
-    console.log("key=",y,"value",teacher[y]);
-} //returns keys
-let gameNum=25;
-let userNum=prompt("guess the game number");
-while(userNum!=gameNum){
-    console.log("oops! u guessed the wrong no. now guess again");
-}
-    console.log("congrats! u entered the right number");
+// let output=`the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+// console.log(str2.UpperCase);
+let str1= prompt("enter your full name");
+console.log(str1);
+console.log("generating user name:")
+console.log("@",str1,str1.length);
 
 
 
