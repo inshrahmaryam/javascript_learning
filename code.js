@@ -99,5 +99,25 @@ if(maanu_age>15){
 else{
     console.log("maanu cannot attend concert");
 }
+let standard=12;
+let result =standard>18? " has passed matric" : "has not passed matric";
+console.log(result);
+alert("dont leave once you've entered!");
+let num=prompt("enter a number");
+if(num%5===0){
+    console.log("it is a multiple of 5");
+}
+else{
+    console.log("the number is not a multiple of 5");
+}
+for(let count=1;count<=10;count++){
+    console.log("this is maryam");
+}
+console.log("the loop has ended");
+let sum=0;
+for(let i=1;i<=5;i++){
+    sum=sum+i;
+    console.log("sum=",sum);
+}
 
 
