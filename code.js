@@ -114,11 +114,11 @@ for(let count=1;count<=10;count++){
     console.log("this is maryam");
 }
 console.log("the loop has ended");
-let sum=0;
-for(let i=1;i<=5;i++){
-    sum=sum+i;
-    console.log("sum=",sum);
-}
+// let sum=0;
+// for(let i=1;i<=5;i++){
+//     sum=sum+i;
+//     console.log("sum=",sum);
+// }
 // let k=0;
 // while(k<=10){
 //     console.log("k=",k);
@@ -148,23 +148,77 @@ for(let i=1;i<=5;i++){
 //     console.log("oops! u guessed the wrong no. now guess again");
 // }
 //     console.log("congrats! u entered the right number");
-let str2="meow guys";
-console.log(str2.length);
-let specialString=`this is a template literal`;
-console.log(specialString);
-let obj={
-    item:"pen",
-    price:100,
-};
+// let str2="meow guys";
+// console.log(str2.length);
+// let specialString=`this is a template literal`;
+// console.log(specialString);
+// let obj={
+//     item:"pen",
+//     price:100,
+// };
 // let output=`the cost of ${obj.item} is ${obj.price} rupees`;
 // console.log(output);
 // console.log(str2.UpperCase);
-let str1= prompt("enter your full name");
-console.log(str1);
-console.log("generating user name:")
-console.log("@",str1,str1.length);
 
-
-
-
+// let str1= prompt("enter your full name");
+// console.log(str1);
+// console.log("generating user name:")
+// console.log("@",str1,str1.length);
+let students=["arshi","ahmed","ali","arslan"];
+console.log(students);
+console.log(students.length);
+for(let idx=0; idx<students.length;idx++){
+    console.log(students[idx]);
+}
+for(let el of students){
+    console.log(el);
+}
+let cities=["mtn","lhr","khi","isb"];
+for(let city of cities){
+    console.log(city.toUpperCase());
+}
+let marks=[87,97,44,37,76,60]
+let sum=0;
+for(let val of marks){
+    sum+=val;
+}
+// for(let i=0;i<marks.length;i++){
+//     sum+=marks[i];
+console.log("sum of the given array is",sum);
+// }
+let avg;
+avg=sum/marks.length;
+console.log("average:",avg)
+let items=[250,645,300,928,908];
+// let id=0;
+// for(let val of items){
+//     console.log(`value at index ${id}=${val}`);
+//     let offer=val/10;
+//     items[id]=items[id]-offer;
+//     console.log(`value after offer=${items[id]}`);
+//     id++;
+// }
+for(let id=0;id<items.length;id++){
+    let offer =items[id]/10;
+    items[id]-=offer;
+}
+console.log(items);
+console.log(items.toString());
+let marvel_heroes=["thor","spiderman","loki","doctorStrange","hulk","blackWidow"];
+let ss=items.concat(marvel_heroes);
+console.log(ss);
+let val=marvel_heroes.unshift("captain_america");
+console.log(val);
+let val2=marvel_heroes.shift("ironman"); //it returns what it deletes
+console.log(val2);
+console.log(marvel_heroes.slice(1,3));
+let arr=[1,2,3,4,5,6,7,8,9]
+arr.splice(2,2,101,102);
+// arr.splice(2,0,101);
+let array=["bloomberg","microsoft","uber","google","ibm","netflix"]
+array.splice(0,1);
+console.log(array);
+array.splice(2,1,"ola");
+console.log(array);
+array.splice(5,0,"amazon");
 
